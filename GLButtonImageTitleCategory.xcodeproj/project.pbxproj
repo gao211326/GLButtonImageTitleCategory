@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB218B4C1E6CFDFF00A52C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB218B4B1E6CFDFF00A52C59 /* main.m */; };
+		EB218B4F1E6CFDFF00A52C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB218B4E1E6CFDFF00A52C59 /* AppDelegate.m */; };
+		EB218B521E6CFDFF00A52C59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB218B511E6CFDFF00A52C59 /* ViewController.m */; };
+		EB218B551E6CFDFF00A52C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB218B531E6CFDFF00A52C59 /* Main.storyboard */; };
+		EB218B571E6CFDFF00A52C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB218B561E6CFDFF00A52C59 /* Assets.xcassets */; };
+		EB218B5A1E6CFDFF00A52C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB218B581E6CFDFF00A52C59 /* LaunchScreen.storyboard */; };
+		EB218B631E6CFE0900A52C59 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = EB218B621E6CFE0900A52C59 /* UIButton+ImageTitleSpacing.m */; };
+		EB218B651E6CFF2200A52C59 /* 下载@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB218B641E6CFF2200A52C59 /* 下载@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB218B471E6CFDFF00A52C59 /* GLButtonImageTitleCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLButtonImageTitleCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB218B4B1E6CFDFF00A52C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB218B4D1E6CFDFF00A52C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB218B4E1E6CFDFF00A52C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB218B501E6CFDFF00A52C59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB218B511E6CFDFF00A52C59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB218B541E6CFDFF00A52C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB218B561E6CFDFF00A52C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB218B591E6CFDFF00A52C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB218B5B1E6CFDFF00A52C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB218B611E6CFE0900A52C59 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		EB218B621E6CFE0900A52C59 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		EB218B641E6CFF2200A52C59 /* 下载@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB218B441E6CFDFF00A52C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB218B3E1E6CFDFF00A52C59 = {
+			isa = PBXGroup;
+			children = (
+				EB218B491E6CFDFF00A52C59 /* GLButtonImageTitleCategory */,
+				EB218B481E6CFDFF00A52C59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB218B481E6CFDFF00A52C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB218B471E6CFDFF00A52C59 /* GLButtonImageTitleCategory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB218B491E6CFDFF00A52C59 /* GLButtonImageTitleCategory */ = {
+			isa = PBXGroup;
+			children = (
+				EB218B4D1E6CFDFF00A52C59 /* AppDelegate.h */,
+				EB218B4E1E6CFDFF00A52C59 /* AppDelegate.m */,
+				EB218B501E6CFDFF00A52C59 /* ViewController.h */,
+				EB218B511E6CFDFF00A52C59 /* ViewController.m */,
+				EB218B611E6CFE0900A52C59 /* UIButton+ImageTitleSpacing.h */,
+				EB218B621E6CFE0900A52C59 /* UIButton+ImageTitleSpacing.m */,
+				EB218B641E6CFF2200A52C59 /* 下载@2x.png */,
+				EB218B531E6CFDFF00A52C59 /* Main.storyboard */,
+				EB218B561E6CFDFF00A52C59 /* Assets.xcassets */,
+				EB218B581E6CFDFF00A52C59 /* LaunchScreen.storyboard */,
+				EB218B5B1E6CFDFF00A52C59 /* Info.plist */,
+				EB218B4A1E6CFDFF00A52C59 /* Supporting Files */,
+			);
+			path = GLButtonImageTitleCategory;
+			sourceTree = "<group>";
+		};
+		EB218B4A1E6CFDFF00A52C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB218B4B1E6CFDFF00A52C59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB218B461E6CFDFF00A52C59 /* GLButtonImageTitleCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB218B5E1E6CFDFF00A52C59 /* Build configuration list for PBXNativeTarget "GLButtonImageTitleCategory" */;
+			buildPhases = (
+				EB218B431E6CFDFF00A52C59 /* Sources */,
+				EB218B441E6CFDFF00A52C59 /* Frameworks */,
+				EB218B451E6CFDFF00A52C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLButtonImageTitleCategory;
+			productName = GLButtonImageTitleCategory;
+			productReference = EB218B471E6CFDFF00A52C59 /* GLButtonImageTitleCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB218B3F1E6CFDFF00A52C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "高磊";
+				TargetAttributes = {
+					EB218B461E6CFDFF00A52C59 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB218B421E6CFDFF00A52C59 /* Build configuration list for PBXProject "GLButtonImageTitleCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB218B3E1E6CFDFF00A52C59;
+			productRefGroup = EB218B481E6CFDFF00A52C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB218B461E6CFDFF00A52C59 /* GLButtonImageTitleCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB218B451E6CFDFF00A52C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB218B5A1E6CFDFF00A52C59 /* LaunchScreen.storyboard in Resources */,
+				EB218B571E6CFDFF00A52C59 /* Assets.xcassets in Resources */,
+				EB218B651E6CFF2200A52C59 /* 下载@2x.png in Resources */,
+				EB218B551E6CFDFF00A52C59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB218B431E6CFDFF00A52C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB218B521E6CFDFF00A52C59 /* ViewController.m in Sources */,
+				EB218B4F1E6CFDFF00A52C59 /* AppDelegate.m in Sources */,
+				EB218B631E6CFE0900A52C59 /* UIButton+ImageTitleSpacing.m in Sources */,
+				EB218B4C1E6CFDFF00A52C59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB218B531E6CFDFF00A52C59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB218B541E6CFDFF00A52C59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB218B581E6CFDFF00A52C59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB218B591E6CFDFF00A52C59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB218B5C1E6CFDFF00A52C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB218B5D1E6CFDFF00A52C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB218B5F1E6CFDFF00A52C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLButtonImageTitleCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gao.GLButtonImageTitleCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB218B601E6CFDFF00A52C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLButtonImageTitleCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gao.GLButtonImageTitleCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB218B421E6CFDFF00A52C59 /* Build configuration list for PBXProject "GLButtonImageTitleCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB218B5C1E6CFDFF00A52C59 /* Debug */,
+				EB218B5D1E6CFDFF00A52C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB218B5E1E6CFDFF00A52C59 /* Build configuration list for PBXNativeTarget "GLButtonImageTitleCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB218B5F1E6CFDFF00A52C59 /* Debug */,
+				EB218B601E6CFDFF00A52C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB218B3F1E6CFDFF00A52C59 /* Project object */;
+}
